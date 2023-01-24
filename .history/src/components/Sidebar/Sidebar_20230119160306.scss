@@ -1,0 +1,45 @@
+.sidebar{
+    position: sticky;
+    align-self: flex-start;
+    top: 50%;
+    left: 0.25rem;
+    display: sticky;
+    padding: 30px 20px;
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+    button{
+        background: #fff;
+        color: #7237a0ea;
+        font-size: 30px;
+        line-height: 20px;
+        padding: 15px 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        
+        &:hover{
+            scale: 1.2;
+        }
+
+        &:active{
+            scale: 0.9;
+        }
+    }
+
+    svg{
+        font-size: 30px;
+        cursor: pointer;
+         transition: all 0.3s ease;
+        
+        &:hover{
+            scale: 1.4;
+        }
+
+        &:active{
+            scale: 0.9;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.background{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px;
+
+
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    #personImg{
+        mix-blend-mode: darken;
+        top: 70%;
+        left: 30%;
+        position: absolute;
+        object-fit: fill;
+        height: 200px;
+        width: 200px;
+    }
+
+    img#planeImg{
+        background: #000;
+        mix-blend-mode: darken;
+        top: 5%;
+        left: 23%;
+        height: 400px;
+        width: 400px;
+        object-fit: fill;
+    }
+        img#treeImg{
+            background: #000;
+        mix-blend-mode: darken;
+        top: 50%;
+        left: 50%;
+        height: 300px;
+        width: 300px;
+    }
+}

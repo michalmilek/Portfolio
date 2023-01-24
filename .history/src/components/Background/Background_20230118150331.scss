@@ -1,0 +1,67 @@
+.background{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px;
+
+
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    #personImg{
+        background: #fff;
+        mix-blend-mode: multiply;
+        top: 67%;
+        left: 38%;
+        position: absolute;
+        object-fit: fill;
+        height: 200px;
+        width: 200px;
+        z-index: 10;
+        user-select: none;
+    }
+
+    img#planeImg{
+        background: #000;
+        mix-blend-mode: darken;
+        top: 5%;
+        left: 23%;
+        height: 400px;
+        width: 400px;
+        object-fit: fill;
+        user-select: none;
+    }
+        img#treeImg{
+            background: #000;
+        mix-blend-mode: darken;
+        top: 50%;
+        left: 50%;
+        height: 300px;
+        width: 300px;
+        user-select: none;
+    }
+
+    .aboutMe{
+        position: absolute;
+        color: #fff;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 3px solid #fff;
+        border-radius: 15px;
+        padding: 10px 20px;
+
+        h1{
+            background: #63D6FF;
+background: linear-gradient(to right, #63D6FF 0%, #2133CF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+        }
+    }
+}

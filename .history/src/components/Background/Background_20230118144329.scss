@@ -1,0 +1,30 @@
+.background{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px;
+
+
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    #personImg{
+        mix-blend-mode: screen;
+        top: 15%;
+        left: 50%;
+        position: absolute;
+    }
+
+/*     img#planeImg{
+        mix-blend-mode: screen;
+        top: 15%;
+        left: 50%;
+        z-index: 10;
+    } */
+}

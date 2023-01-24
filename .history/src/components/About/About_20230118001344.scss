@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    box-sizing: border-box;
+}
+.about{
+    width: 100vw;
+    padding: 60px 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+
+
+    .aboutContainer{
+        max-width: 900px;
+        position: relative;
+        border: 3px solid rgba(37, 84, 214, 0.795);
+        padding: 10px 80px;
+        border-radius: 10%;
+        -webkit-box-shadow: 0px 0px 24px 0px rgba(66, 68, 90, 1);
+-moz-box-shadow: 0px 0px 24px 0px rgba(66, 68, 90, 1);
+box-shadow: 0px 0px 24px 0px rgba(66, 68, 90, 1);
+        
+
+
+        h1{
+            font-size: 2.5em;
+            text-align: center;
+            font-weight: bold;
+            color: transparent;
+            background-clip: text;
+            background-color: rgb(2,0,36);
+            background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(113,112,112,1) 33%, rgba(0,0,0,1) 67%, rgba(139,141,142,1) 100%);
+            background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+        }
+
+        h2{
+            font-size: 2em;
+            font-weight: 500;
+                        color: transparent;
+            background-clip: text;
+            background-color: rgb(2,0,36);
+            background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(113,112,112,1) 33%, rgba(0,0,0,1) 67%, rgba(139,141,142,1) 100%);
+            background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+        }
+
+        h3{
+            margin-top: 30px;
+            text-align: left;
+            font-size: 1.8em;
+            font-weight: 500;
+            text-decoration: underline;
+                        color: transparent;
+            background-clip: text;
+            background-color: rgb(2,0,36);
+            background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(113,112,112,1) 33%, rgba(0,0,0,1) 67%, rgba(139,141,142,1) 100%);
+            background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+        }
+
+        ul{
+            display: flex;
+            padding-left: 20px;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+
+        .mmContainer{
+            position: absolute;
+                        bottom: 4%;
+            right: 10%;
+            cursor: pointer;
+
+            &:hover{
+                .mmAvatar{
+                    filter: none;
+                }
+
+                span{
+                    opacity: 0;
+                }
+            }
+
+            .mmAvatar{
+            height: 300px;
+            width: 300px;
+            object-fit: cover;
+            border: 5px solid #000;
+            border-radius: 10%;
+            filter: blur(1rem);
+            transition: all 1s ease;
+        }
+
+        span{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.6em;
+            transition: all 1s ease;
+        }
+        
+    }
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .about{
+        padding: 2rem 2rem;
+
+
+        .aboutContainer{
+            display: flex;
+            flex-direction: column;
+            h1{
+                font-size: 1.8em !important;
+            }
+            
+            h2{
+                margin-top: 10px;
+                font-size: 1.2em !important;
+            }
+            
+            h3{
+                font-size: 0.8em !important;
+            }
+            
+            li{
+                font-size: 0.7em !important;
+            }
+            
+            .mmContainer{
+                align-self: center;
+                margin-top: 15px;
+                position: relative !important;
+                cursor: pointer;
+                
+                .mmAvatar{
+                    height: 150px !important;
+            width: 150px !important;
+        }
+        
+        span{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.6em;
+            transition: all 1s ease;
+        }
+}
+}
+}
+    
+}

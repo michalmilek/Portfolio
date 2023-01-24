@@ -1,0 +1,17 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    input[type=text]{
+        padding: 10px 90px;
+    }
+
+    input[type=email]{
+        padding: 10px 30px;
+    }
+    textarea{
+    width: 800px;
+    }
+
+    input[type=submit]{
+    }
+}

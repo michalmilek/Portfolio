@@ -1,0 +1,29 @@
+.header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 100px;
+
+
+    h1{
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    ul{
+        display: flex;
+        list-style-type: none;
+        color: #fff;
+    
+        li{
+            padding: 4px 8px;
+            border: 2px solid #fff;
+            border-radius: 25%;
+        }
+    }
+    }

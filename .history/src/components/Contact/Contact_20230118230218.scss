@@ -1,0 +1,35 @@
+.contact{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 40px;
+    input{
+        outline: none;
+        border: none;
+        border-radius: 3px;
+        padding: 3px 10px;
+        font-size: 24px;
+    }
+    img{
+        position: absolute;
+        top: -20%;
+        right: -30%;
+        pointer-events: none;
+    }
+    textarea{
+    width: 800px;
+    min-height: 150px;
+    font-size: 24px;
+    padding: 3px 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    }
+
+    input[type=submit]{
+        width: 20%;
+        align-self: center;
+        margin-top: 30px;
+    }
+}

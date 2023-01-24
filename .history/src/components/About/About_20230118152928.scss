@@ -1,0 +1,29 @@
+.about{
+ position: relative;
+ padding: 100px;
+ 
+ 
+ &::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100px;
+    background: linear-gradient(to top, #78dde8, #44205fea );
+    z-index: 1000;
+ }
+
+ h1{
+    font-size: 2.5rem;
+ }
+
+ h2{
+    margin-top: 30px;
+    font-size: 1.8rem;
+ }
+
+ h3{
+    margin-top: 30px;
+    font-size: 1.5rem;
+ }
+}

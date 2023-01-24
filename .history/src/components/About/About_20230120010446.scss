@@ -1,0 +1,151 @@
+.about{
+ position: relative;
+ border-bottom: 3px solid rgb(168, 168, 168);
+ overflow-x: hidden;
+ 
+ 
+ &::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100px;
+    z-index: 1000;
+ }
+
+ .aboutContainer{
+    margin-top: 20px;
+padding: 100px 300px;
+display: flex;
+flex-direction: column;
+     
+ h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
+
+ h3{
+     margin-top: 30px;
+     font-size: 1.5rem;
+    }
+
+    .mmAvatar{
+        position: absolute;
+        top: 55%;
+        left: 60%;
+        cursor: pointer;
+        transition: all 0.5s ease;
+
+        &:hover{
+            img{
+                filter: none;
+            }
+
+            span{
+                opacity: 0;
+            }
+        }
+        
+        img{
+            height: 250px;
+        width: 250px;
+        object-fit: cover;
+        border: 3px solid #fff;
+        border-radius: 10px;
+        filter: blur(1rem);
+                transition: all 0.5s ease;
+        }
+
+        span{
+            position: absolute;
+            color: #7237a0ea;
+            font-size: 22px;
+            background: #000;
+            padding: 5px;
+                    transition: all 0.5s ease;
+
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .downloadCV{
+        position: absolute;
+         top: 65%;
+        left: 40%;
+        background: #000;
+        color: #7237a0ea;
+        padding: 15px;
+        font-size: 30px;
+        border-radius: 15px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+
+        &:hover{
+            scale: 1.1;
+        }
+
+        &:active{
+            scale: 0.9;
+        }
+    }
+}
+}
+
+
+@media screen and (max-width: 900px) {
+
+.aboutContainer{
+    padding: 100px 130px  !important;
+}
+
+    .mmAvatar{
+        margin-top: 50px;
+        top: 0 !important;
+        left: 0 !important;
+        align-self: center;
+        position: relative !important;
+    }
+
+    .CVLink{
+        align-self: center;
+
+        
+        .downloadCV{
+            margin-top: 50px;
+            top: 0 !important;
+            left: 0 !important;
+            position: relative !important;
+        }
+    }
+    }
+
+    @media screen and (max-width: 1050px) {
+        .aboutContainer{
+    padding: 100px 130px  !important;
+}
+
+    .mmAvatar{
+        margin-top: 50px;
+        top: 80% !important;
+        right: 10% !important;
+        align-self: center;
+    }
+
+    .CVLink{
+        align-self: center;
+
+        
+        .downloadCV{
+            margin-top: 50px;
+            top: 0 !important;
+            left: 0 !important;
+            position: relative !important;
+        }
+    }
+    }

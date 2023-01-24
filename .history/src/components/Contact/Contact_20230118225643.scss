@@ -1,0 +1,25 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    input{
+        outline: none;
+        border: none;
+        border-radius: 3px;
+        padding: 3px 10px;
+        font-size: 24px;
+    }
+    img{
+        position: absolute;
+        top: -50%;
+        right: -30%;
+        pointer-events: none;
+    }
+    textarea{
+    width: 800px;
+    max-height: 600px;
+    }
+
+    input[type=submit]{
+    }
+}

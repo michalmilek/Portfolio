@@ -1,0 +1,22 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    img{
+        position: absolute;
+        top: -10%;
+        right: -60%;
+    }
+    input[type=text]{
+        padding: 10px 90px;
+    }
+
+    input[type=email]{
+    }
+    textarea{
+    width: 800px;
+    }
+
+    input[type=submit]{
+    }
+}

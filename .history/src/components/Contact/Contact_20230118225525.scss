@@ -1,0 +1,27 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    input{
+        outline: none;
+        border: none;
+    }
+    img{
+        position: absolute;
+        top: -50%;
+        right: -30%;
+        pointer-events: none;
+    }
+    input[type=text]{
+        padding: 10px 90px;
+    }
+
+    input[type=email]{
+    }
+    textarea{
+    width: 800px;
+    }
+
+    input[type=submit]{
+    }
+}

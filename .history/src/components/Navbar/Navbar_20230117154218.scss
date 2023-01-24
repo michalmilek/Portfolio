@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    color: #fff;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 8rem;
+    background: rgba(37, 84, 214, 0.795);
+
+    ul{
+        display: flex;
+        list-style-type: none;
+        gap: 10px;
+
+        li{
+            padding: 5px 12px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    h1{
+        font-size: 1.6em;
+        color: #fff;
+    }
+    p{
+        text-align: center;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        text-align: center;
+    }
+}

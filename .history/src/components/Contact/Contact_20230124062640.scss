@@ -1,0 +1,84 @@
+
+    .contact_Header{
+        text-align: center;
+    }
+
+.contact{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 40px;
+    overflow: hidden;
+    max-width: 900px;
+
+    input{
+        outline: none;
+        border: none;
+        border-radius: 3px;
+        padding: 3px 10px;
+        font-size: 24px;
+    }
+    img{
+        position: absolute;
+        top: 0%;
+        right: -30%;
+        pointer-events: none;
+    }
+    textarea{
+    width: 800px;
+    min-height: 150px;
+    font-size: 24px;
+    padding: 3px 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    }
+
+    input[type=submit]{
+        width: 20%;
+        align-self: center;
+        margin-top: 30px;
+                cursor: pointer;
+        transition: all 0.3s ease;
+        
+        &:hover{
+            scale: 1.2;
+        }
+
+        &:active{
+            scale: 0.9;
+        }
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .contact{
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .contact{
+        max-width: 450px;
+
+                img{
+            right: -60% !important;
+        }
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .contact{
+        max-width: 400px;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact{
+        max-width: 35px;
+
+    }
+}

@@ -1,0 +1,14 @@
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    border: 2px solid #fff;
+    padding: 15px 30px;
+    background: rgb(192, 191, 191);
+    color: #44205fea;
+
+    h1{
+        align-self: center;
+    }
+
+}
